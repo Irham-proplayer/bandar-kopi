@@ -1,0 +1,10 @@
+{
+  "name": "bandar-kopi",
+  "version": "3.4.0",
+  "private": true,
+  "description": "Bandar Kopi - cloud-ready coffee ordering and POS foundation",
+  "main": "server.js",
+  "scripts": {"start":"node server.js","migrate":"node migrate.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"pg":"^8.16.3"}
+}

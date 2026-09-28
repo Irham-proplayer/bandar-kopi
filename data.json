@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Owner Bandar",
+      "username": "owner",
+      "password": "43a0d17178a9d26c9e0fe9a74b0b45e38d32f27aed887a008a54bf6e033bf7b9",
+      "role": "owner"
+    },
+    {
+      "id": "u2",
+      "name": "Kasir Bandar",
+      "username": "kasir",
+      "password": "f02b7c1e519e4fa436147f7e1399974f9510aa9c8e0cb8be29151eb540f9d214",
+      "role": "cashier"
+    },
+    {
+      "id": "u3",
+      "name": "Barista Bandar",
+      "username": "barista",
+      "password": "7d551a4fb421bae4957db1baa81c617a80a5a7b5fa173660cc0db0be511f95a7",
+      "role": "barista"
+    },
+    {
+      "id": "u4",
+      "name": "Pelanggan Demo",
+      "username": "customer",
+      "password": "b041c0aeb35bb0fa4aa668ca5a920b590196fdaf9a00eb852c9b7f4d123cc6d6",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Kopi Susu Bandar",
+      "price": 18000,
+      "category": "Kopi"
+    },
+    {
+      "id": "p2",
+      "name": "Americano",
+      "price": 15000,
+      "category": "Kopi"
+    },
+    {
+      "id": "p3",
+      "name": "Cappuccino",
+      "price": 20000,
+      "category": "Kopi"
+    },
+    {
+      "id": "p4",
+      "name": "Matcha Latte",
+      "price": 22000,
+      "category": "Non-Kopi"
+    },
+    {
+      "id": "p5",
+      "name": "Croissant",
+      "price": 16000,
+      "category": "Makanan"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "name": "Meja 01",
+      "status": "available",
+      "qrToken": "BK-1"
+    },
+    {
+      "id": "t2",
+      "name": "Meja 02",
+      "status": "available",
+      "qrToken": "BK-2"
+    },
+    {
+      "id": "t3",
+      "name": "Meja 03",
+      "status": "available",
+      "qrToken": "BK-3"
+    },
+    {
+      "id": "t4",
+      "name": "Meja 04",
+      "status": "available",
+      "qrToken": "BK-4"
+    },
+    {
+      "id": "t5",
+      "name": "Meja 05",
+      "status": "available",
+      "qrToken": "BK-5"
+    },
+    {
+      "id": "t6",
+      "name": "Meja 06",
+      "status": "available",
+      "qrToken": "BK-6"
+    },
+    {
+      "id": "t7",
+      "name": "Meja 07",
+      "status": "available",
+      "qrToken": "BK-7"
+    },
+    {
+      "id": "t8",
+      "name": "Meja 08",
+      "status": "available",
+      "qrToken": "BK-8"
+    },
+    {
+      "id": "t9",
+      "name": "Meja 09",
+      "status": "available",
+      "qrToken": "BK-9"
+    },
+    {
+      "id": "t10",
+      "name": "Meja 10",
+      "status": "available",
+      "qrToken": "BK-10"
+    },
+    {
+      "id": "t11",
+      "name": "Meja 11",
+      "status": "available",
+      "qrToken": "BK-11"
+    },
+    {
+      "id": "t12",
+      "name": "Meja 12",
+      "status": "available",
+      "qrToken": "BK-12"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-MULBY68B",
+      "customerId": "u4",
+      "customerName": "Pelanggan Demo",
+      "tableId": null,
+      "table": "Takeaway",
+      "items": [
+        {
+          "id": "p1",
+          "name": "Kopi Susu Bandar",
+          "price": 18000,
+          "qty": 2
+        }
+      ],
+      "total": 36000,
+      "status": "NEW",
+      "payment": "CASH",
+      "paymentStatus": "UNPAID",
+      "createdAt": "2026-09-28T14:15:40.043Z"
+    }
+  ],
+  "sessions": {}
+}

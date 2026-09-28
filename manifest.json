@@ -1,0 +1,9 @@
+{
+  "name": "Bandar Kopi V3.3",
+  "short_name": "Bandar Kopi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#17120f",
+  "description": "Digital Coffee Ecosystem Bandar Kopi"
+}
